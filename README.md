@@ -111,12 +111,8 @@ A table summarizing model performance on test data, consisting of True Positives
 
 Metrics to measure the performance of classification models, balancing precision and recall.
 
-## Example:
-
-Illustration of how precision, recall, and F1-score are calculated using a binary classification problem.
-
-Remember, thorough model evaluation is essential for ensuring the effectiveness of sentiment analysis models.
-
+---
+---
 # **SYSTEM IMPLEMENTATION**
 1. **DATASETs**
 The dataset is basically downloaded from Kaggle which contains three different types labels category(Neutral, Negative, Positive) and people opinions as “clean_text” namely it contains 160k tweets extracted.
@@ -135,15 +131,15 @@ These four values are used for the purpose of analyzing the performance of model
 ### Accuracy: accuracy is the total fraction of  correctly predicted classes versus the total predictions done by model, maximum value of  accuracy can be 1 and minimum value can be 0,
 accuracy is represented as:
 
-                                                                Accuracy=  (TP+TN)/(TP+TN+FP+FN)                                                     (4)
+                                Accuracy=  (TP+TN)/(TP+TN+FP+FN)       
 ### Precision: positive pre
 
-                                                                 Precision=  TP/(TP+ FP)                                                              (5)
+                                Precision=  TP/(TP+ FP)
 
 
 ### Recall: Also known as true positive rate (TPR)
-                                                                       Recall =  TP/(TP+ FN)                                                              (6)
+                                Recall =  TP/(TP+ FN)
 
 ### F1 Score: F1 score is the harmonic mean of precision and recall, it maintains the balance between precision and recall, value lies between[0,1] formula is inscribed below.
-                                                       F1 Score =  (2*(precision * recall))/((precision + recall))                                                      (7)
+                                F1 Score =  (2*(precision * recall))/((precision + recall))
 
